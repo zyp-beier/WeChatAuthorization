@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <div><img src="${res.data.headimgurl}" alt="" style="width: 60px;height: 60px; border-radius: 50%"></div>
+    <div><span>${res.data.nickname}</span></div>
+    <div><span>${res.data.sex? (res.data.sex === 1? '男' : '女') : '未知'}</span></div>
+    <div><span>${res.data.country}</span>-<span>${res.data.province}</span></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "wechat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "axios": "^0.21.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.0.0",
+    "koa-xml-body": "^2.2.0",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

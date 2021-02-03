@@ -1,0 +1,47 @@
+{
+  "name": "koa-xml-body",
+  "version": "2.2.0",
+  "description": "koa middleware to parse xml request body",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib test",
+    "test": "mocha --harmony test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creeperyang/koa-xml-body.git"
+  },
+  "keywords": [
+    "xml",
+    "body",
+    "bodyParser",
+    "koa",
+    "middleware",
+    "xml2js",
+    "xml parser"
+  ],
+  "author": "creeperyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creeperyang/koa-xml-body/issues"
+  },
+  "homepage": "https://github.com/creeperyang/koa-xml-body#readme",
+  "dependencies": {
+    "raw-body": "^2.4.1",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "iconv-lite": "^0.4.15",
+    "koa": "^2.13.0",
+    "mocha": "^3.5.0",
+    "should": "^11.2.0",
+    "supertest": "^3.4.2"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
+}
